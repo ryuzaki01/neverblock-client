@@ -1,0 +1,17 @@
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*.pyc
+__pycache__
+sign.key
+.idea
+/.vagrant
+/build
+/dist
+/neverblock_client.egg-info
+/tools/build_keys.json

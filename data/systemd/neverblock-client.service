@@ -1,0 +1,10 @@
+[Unit]
+Description=Neverblock Client Daemon
+
+[Service]
+Type=forking
+PIDFile=/var/run/neverblock-client.pid
+ExecStart=%PREFIX%/bin/neverblock-client daemon --pidfile /var/run/neverblock-client.pid
+
+[Install]
+WantedBy=multi-user.target

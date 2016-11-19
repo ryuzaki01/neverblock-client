@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Neverblock Client
+Comment=Neverblock openvpn client
+Exec=neverblock-client-gtk
+Terminal=false
+Type=Application
+StartupNotify=false
+Icon=neverblock_client
+Categories=Network;TrayIcon;
